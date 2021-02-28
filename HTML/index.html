@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+
     <title>Pagina ejemplo</title>
 </head>
 
@@ -26,70 +31,137 @@
             </nav>
         </div>
     </header>
-
-    <section class="parallax " id="seccion1">
-        <div data-aos="zoom-in-up">
-            <h1>Encuentra la bici de tus sueños</h1>
-        </div>
-    </section>
-
-    <h1 class="centrar-texto" style="color: white;">Mejores marcas</h1>
-    <div class="centrar-texto contenedor">
-
-        <div data-aos="zoom-out-up">
-            <img src="../imagenes/scott.jpg" width="200">
-        </div>
-        <div data-aos="zoom-out">
-            <img src="../imagenes/trek.jpg" width="200">
-        </div>
-        <div data-aos="zoom-out-up">
-            <img src="../imagenes/spechalai.jpg" width="200">
-        </div>
-    </div>
-
-    <div data-aos="fade-down" data-aos-easing="linear " data-aos-duration="1500 ">
-        <section class="parallax " id="seccion2">
-            <div data-aos="fade-left ">
-                <h1 class="centrar-texto " style="color: white; ">Bicicletas de montaña</h1>
-                <br><br>
-            </div>
-            <div class="contenedorSeccion">
-                <div class="nota">
-                    <p> Se caracteriza por usar bicicletas pesadas y mucho más resistentes, con recorridos aún más amplios de 180 mm a 210 mm que las de montaña tradicionales; por sus grandes bajadas escarpadas, llenas de rocas y obstáculos, como raíces de
-                        árboles y grandes rampas.
-                    </p>
-                </div>
-                <br>
-                <video src="../video/montana.mp4 " controls autoplay muted class="contenedorvideo "></video>
+    <main>
+        <section class="parallax " id="seccion1">
+            <div data-aos="zoom-in-up">
+                <h1>Encuentra la bici de tus sueños</h1>
             </div>
         </section>
-    </div>
 
+        <h1 class="centrar-texto" style="color: white;">Mejores marcas</h1>
+        <div class="centrar-texto contenedor">
 
-    <div data-aos="fade-down" data-aos-easing="linear " data-aos-duration="1500 ">
-        <section class="parallax " id="seccion3">
-            <div data-aos="fade-left ">
-                <h1 class="centrar-texto " style="color: white; ">Bicicletas de ruta</h1>
-                <br><br>
+            <div data-aos="zoom-out-up">
+                <img src="../imagenes/scott.jpg" width="200">
             </div>
-            <div class="contenedorSeccion">
+            <div data-aos="zoom-out">
+                <img src="../imagenes/trek.jpg" width="200">
+            </div>
+            <div data-aos="zoom-out-up">
+                <img src="../imagenes/spechalai.jpg" width="200">
+            </div>
+        </div>
 
-                <div data-aos="fade-down" data-aos-easing="linear " data-aos-duration="1500 "></div>
-                <div class="nota">
-                    <p>
-                        Las bicicletas de ruta o de carreras son bicicletas diseñadas para la velocidad. Sus características están pensadas para llevarte tan lejos y tan rápido como tus piernas lo permitan.
-                    </p>
+        <div data-aos="fade-down" data-aos-easing="linear " data-aos-duration="1500 ">
+            <section class="parallax " id="seccion2">
+                <div data-aos="fade-left ">
+                    <h1 class="centrar-texto " style="color: white; ">Bicicletas de montaña</h1>
+                    <br><br>
                 </div>
-                <br>
-                <video src="../video/ruta.mp4 " controls autoplay muted class="contenedorvideo "></video>
-            </div>
+                <div class="contenedorSeccion">
+                    <div class="nota">
+                        <p> Se caracteriza por usar bicicletas pesadas y mucho más resistentes, con recorridos aún más amplios de 180 mm a 210 mm que las de montaña tradicionales; por sus grandes bajadas escarpadas, llenas de rocas y obstáculos, como raíces
+                            de árboles y grandes rampas.
+                        </p>
+                    </div>
+                    <br>
+                    <video src="../video/montana.mp4 " controls autoplay muted class="contenedorvideo "></video>
+                </div>
+            </section>
+        </div>
 
+
+        <div data-aos="fade-down" data-aos-easing="linear " data-aos-duration="1500 ">
+            <section class="parallax " id="seccion3">
+                <div data-aos="fade-left ">
+                    <h1 class="centrar-texto " style="color: white; ">Bicicletas de ruta</h1>
+                    <br><br>
+                </div>
+                <div class="contenedorSeccion">
+
+                    <div data-aos="fade-down" data-aos-easing="linear " data-aos-duration="1500 "></div>
+                    <div class="nota">
+                        <p>
+                            Las bicicletas de ruta o de carreras son bicicletas diseñadas para la velocidad. Sus características están pensadas para llevarte tan lejos y tan rápido como tus piernas lo permitan.
+                        </p>
+                    </div>
+                    <br>
+                    <video src="../video/ruta.mp4 " controls autoplay muted class="contenedorvideo "></video>
+                </div>
+
+            </section>
+        </div>
+
+        <section class="parallax" id="seccion4">
+            <h1 class="centrar-texto" style="color: black;">Recibe informacion adicional</h1>
+            <div class="formulario">
+
+                <div class="row">
+                    <div class="col">
+                        <label for="formGroupExampleInput" class="form-label centrar-texto">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="col">
+                        <label for="formGroupExampleInput" class="form-label centrar-texto">Apellido</label>
+                        <input type="text" class="form-control" placeholder="Ingrese su apellido">
+                    </div>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Correo Electronico</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Correo electronico">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">Ciudad</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Ciudad">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputState" class="form-label">Estado</label>
+                            <select id="inputState" class="form-select">
+                        <option selected>Seleccionar estado</option>
+                        <option>Estado de mexico</option>
+                        <option>Nuevo Leon</option>
+                        <option>Puebla</option>
+                        <option>Hidalgo</option>
+                        <option>Veracruz</option>
+                        <option>Chiapas</option>
+                      </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="formGroupExampleInput" class="form-label centrar-texto">Numero telefonico</label>
+                            <input type="text" class="form-control" placeholder="Numero telefonico">
+                        </div>
+                        <div class="col-12 centrar-texto">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
-    </div>
+
+    </main>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script>
         AOS.init();
     </script>
+    <footer>
+        <div class="footer-pag">
+            <nav>
+                <h4>Todos los derechos resevados 2021 &reg;</h4>
+            </nav>
+            <nav>
+                <span style="color: #910d0d; font-size: 3rem;">Bike</span><span style=" color: white;">Dreams</span>
+            </nav>
+
+            <nav>
+                <a href="">Inicio</a>
+                <a href="#seccion2">Montaña</a>
+                <a href="#seccion3">Ruta</a>
+            </nav>
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
